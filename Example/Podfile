@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ABNetwork_Example', :exclusive => true do
+  pod "ABNetwork", :path => "../"
+end
+
+target 'ABNetwork_Tests', :exclusive => true do
+  pod "ABNetwork", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
