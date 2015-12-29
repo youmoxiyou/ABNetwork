@@ -1,0 +1,21 @@
+PODS:
+  - ABNetwork (0.1.0)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ABNetwork (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ABNetwork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABNetwork: f852039b521b6f4f30786d25a82dd20eb23e2383
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+
+COCOAPODS: 0.39.0

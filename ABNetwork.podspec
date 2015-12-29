@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ABNetwork"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ABNetwork."
+  s.summary          = "ABNetwork 是参考YTKNetwork，基于AFNetwork的封装库。"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       知米听力（ZhiMiHearing）的网络库
+                       对AFNetwork进行封装，实现离散型API接口调用基础。
+                       
                        DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ABNetwork"
+                       
+  s.homepage         = "https://github.com/youmoxiyou/ABNetwork"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "AbeHui" => "sky_boy_0574@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ABNetwork.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/youmoxiyou/ABNetwork.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -36,5 +39,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 3.0'
 end
